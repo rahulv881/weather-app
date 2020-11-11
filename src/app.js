@@ -109,6 +109,6 @@ app.get("*", (req, res) => {
 });
 
 app.listen(port,()=>{
-    console.log("Server starting on port: 3000");
+    console.log("Server starting on port: " + port);
 });
 
