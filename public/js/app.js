@@ -9,7 +9,6 @@ weatherApp.addEventListener('submit',(event)=>{
   event.preventDefault();
   console.log('testing');
 
-  cont baseURL = "http://localhost:3000";
   fetch("/weather?address="+search.value).then((response) => {
     response.json().then((data) => {
       if (data.error) {

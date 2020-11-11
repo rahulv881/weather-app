@@ -75,7 +75,7 @@ app.get('/weather',(req,res)=>{
            location: location,
            address: req.query.address,
         });
-
+    
         //console.log(location);
         //console.log(forecastData);
         });
@@ -109,6 +109,6 @@ app.get("*", (req, res) => {
 });
 
 app.listen(port,()=>{
-    console.log("Server starting on port: " + port);
+    console.log("Server starting on port: " +port);
 });
 
