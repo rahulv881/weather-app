@@ -1,4 +1,4 @@
-Weather-app : To display weather details based on input location.
+# Weather-app : To display weather details based on input location.
 
 Built using node, uses mapbox and wheatherstack api.
 
